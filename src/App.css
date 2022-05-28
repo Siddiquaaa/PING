@@ -1,0 +1,59 @@
+
+ /* .buttons {
+	transition: all 0.4s ease-in;
+  }
+  .buttons:focus {
+	outline: 0;
+	background-color: #db1c1c;
+  } */
+  /* .buttons:before {
+	animation: effect_dylan 0.8s ease-out;
+  } */
+/* 
+  @keyframes effect_dylan {
+	50% {
+	  transform: scale(1.5, 1.5);
+	  opacity: 0;
+	}
+	99% {
+	  transform: scale(0.001, 0.001);
+	  opacity: 0;
+	}
+	100% {
+	  transform: scale(0.001, 0.001);
+	  opacity: 1;
+	}
+  } */
+  
+
+form input[type="text"], input[type="password"], input[type="email"] {
+	background: #e5e5e5;
+	border: none;
+	border-radius: '0px 3px 3px 0px';
+	color: #5a5656;
+	font-size: 16px;
+	height: 45px;
+	outline: none;
+	padding: 0px 10px;
+	width: 250px;
+  -webkit-appearance:none;
+}
+
+form input[type="submit"] {
+	background-color: #008dde;
+	border: none;
+	border-radius: '0px 3px 3px 0px';
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 45px;
+	text-transform: uppercase;
+	width: 250px;
+  -webkit-appearance:none;
+}
+
+form a {
+	/* color:  */
+	color: linear-gradient(180deg, rgb(184 154 255) 0%, rgb(250, 172, 168) 80%);
+	font-size: 13px;
+}
+form a:hover { text-decoration: underline; }
